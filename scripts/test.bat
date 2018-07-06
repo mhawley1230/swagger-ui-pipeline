@@ -1,0 +1,1 @@
+"C:\Program Files\SmartBear\ReadyAPI-2.4.0\bin\testrunner.bat" -r -a -j "-fC:\Users\michael.hawley\Desktop\New folder" "-RJUnit-Style HTML Report" -FXML "-EDefault environment" "C:\Users\michael.hawley\AppData\Roaming\Microsoft\Windows\Network Shortcuts\OpenWeatherAPI-readyapi-project.xml"
