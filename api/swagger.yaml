@@ -4,9 +4,10 @@ info:
   description: Swagger file to support OWM
   version: 1.1.0
   title: OpenWeatherMapAPI
-host: api.openweathermap.org
-basePath: /data/2.5/
+host: virtserver.swaggerhub.com
+basePath: /SE-Design/OpenWeatherMapAPI/1.1.0
 schemes:
+- https
 - http
 paths:
   /weather:
@@ -19,7 +20,7 @@ paths:
       parameters:
       - name: q
         in: query
-        description: City name and country code divided by comma, use ISO 3166 country code!!!
+        description: City name and country code divided by comma, use ISO 3166 country code.
         required: true
         type: string
       - name: id
