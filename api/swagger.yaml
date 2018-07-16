@@ -13,7 +13,7 @@ paths:
   /weather:
     get:
       summary: Resource for individual city weather
-      description: You can call by city name or city name and country code. API responds with a list of results that match a searching word.
+      description: You can call by city name or city name and country code. API responds with a list of results that match a searching word!!!
       produces:
       - application/json
       - application/xml
@@ -21,7 +21,7 @@ paths:
       - name: q
         in: query
         description: City name and country code divided by comma, use ISO 3166 country code.
-        required: true
+        required: false
         type: string
       - name: id
         in: query
