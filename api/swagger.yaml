@@ -13,7 +13,7 @@ paths:
   /weather:
     get:
       summary: Resource for individual city weather
-      description: You can call by city name or city name and country code. API responds with a list of results that match a searching word!!!
+      description: You can call by city name or city name and country code. API responds with a list of results that match a searching word.
       produces:
       - application/json
       - application/xml
@@ -25,7 +25,7 @@ paths:
         type: string
       - name: id
         in: query
-        description: You can call by city ID. API responds with exact result!!!
+        description: You can call by city ID. API responds with exact result.
         required: false
         type: string
       - name: lat
