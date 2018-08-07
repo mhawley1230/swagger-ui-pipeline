@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: Swagger file to support OWM
+  description: Swagger file to support OWM!!!
   version: 1.1.0
-  title: OpenWeatherMapAPI
+  title: OpenWeatherMapAPI!!!
 host: virtserver.swaggerhub.com
 basePath: /SE-Design/OpenWeatherMapAPI/1.1.0
 schemes:
